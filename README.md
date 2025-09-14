@@ -144,7 +144,7 @@ Any other letter triggers an error with a clear message pointing to the invalid 
 
 ---
 
-## 🔀 Move Sets
+## Move Sets
 
 ### VSHD (2D)
 - **End:** relocate an end monomer to another free neighbor of the second/penultimate monomer.
