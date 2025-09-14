@@ -202,12 +202,12 @@ examples/output/run_YYYYmmdd_HHMMSS/
 
 ```
 REMC_Project/
-├── main.py
-├── hp.py
-├── moves.py
-├── monte_carlo.py
-├── remc.py
-├── viz.py
+├── main.py              # CLI + orchestration
+├── hp.py                # AA→HP conversion, input parsing, energy, utilities
+├── moves.py             # VSHD + full 2D Pull moves (+ hybrid by rho)
+├── monte_carlo.py       # MC algorithm
+├── remc.py              # REMC algorithm 
+├── viz.py               # plots
 ├── requirements.txt
 ├── README.md
 ├── examples/
