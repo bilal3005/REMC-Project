@@ -1,9 +1,13 @@
 # HP 2D Protein Folding — MC & REMC
 
 **Student:** Bilal D.
+
 **Class:** M2BI
+
 **Course:** Gestion de projet informatique et programmation avancée
+
 **Teachers:**  Dr. Costas Bouyioukos and Pr. Jean-Christophe Gelly 
+
 **Date:** 09/09/2025
 
 ---
