@@ -1,4 +1,5 @@
-# HP 2D Protein Folding — MC & REMC
+# REMC
+Lattice protein folding model implemented in Python with Monte Carlo (MC) and Replica Exchange Monte Carlo (REMC).
 
 **Student:** Bilal D.
 
@@ -109,9 +110,13 @@ These cover different lengths and structural types, useful for testing MC and RE
 
 
 | `examples/sample.fasta` | 27 aa | **Toy protein example** — a small synthetic sequence
+
 | `examples/1YRF.fasta` | 35 aa | **HP35 (Villin headpiece subdomain)** : a small all-α domain
+
 | `examples/P01542.fasta` | 46 aa | **Crambin** — a plant protein, very compact and highly hydrophobic
+
 | `examples/POCG47.fasta` | 76 aa | **Ubiquitin (1–76)** — the entire ubiquitin protein, highly stable
+
 | `examples/P00648.fasta` | 110 aa | **Barnase (1–110)** — a bacterial nuclease fragment, with complex architecture
 
 
@@ -196,17 +201,23 @@ examples/output/run_YYYYmmdd_HHMMSS/
 ## Code Organization
 
 ```
-.
-├── main.py              # CLI + orchestration
-├── hp.py                # AA→HP conversion, input parsing, energy, utilities
-├── moves.py             # VSHD + full 2D Pull moves (+ hybrid by rho)
-├── monte_carlo.py       # MC algorithm
-├── remc.py              # REMC algorithm 
-├── viz.py               # plots
-├── requirements.txt     
+REMC_Project/
+├── main.py
+├── hp.py
+├── moves.py
+├── monte_carlo.py
+├── remc.py
+├── viz.py
+├── requirements.txt
+├── README.md
 ├── examples/
-│   ├── sample.fasta     # toy example
-│   └── output/          # results go here
+│   ├── sample.fasta
+│   ├── 1YRF.fasta
+│   ├── P01542.fasta
+│   ├── P0CG47.fasta
+│   ├── P00648.fasta
+│   └── output/   # auto-generated results
+
 ```
 
 ---
