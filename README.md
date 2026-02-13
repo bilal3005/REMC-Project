@@ -1,13 +1,9 @@
 # REMC
 Lattice protein folding model implemented in Python with Monte Carlo (MC) and Replica Exchange Monte Carlo (REMC).
 
-**Student:** Bilal D.
+**Author:** Bilal D.
 
-**Class:** M2BI
-
-**Course:** Gestion de projet informatique et programmation avancée
-
-**Teachers:**  Dr. Costas Bouyioukos and Pr. Jean-Christophe Gelly 
+**Supervisors:**  Dr. Costas Bouyioukos and Pr. Jean-Christophe Gelly 
 
 **Date:** 09/09/2025
 
